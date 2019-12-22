@@ -1,0 +1,6 @@
+ void distanceAttack()
+    {
+        GameObject missile = GameObject.Instantiate(enemy.missile, enemy.transform.position, Quaternion.identity);
+        missile.GetComponent<Missile>().speed = enemy.missileSpeed;
+        missile.GetComponent<Missile>().damage = enemy.missileDamage;
+    }

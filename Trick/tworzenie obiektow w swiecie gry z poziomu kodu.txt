@@ -1,0 +1,5 @@
+ GameObject missile = GameObject.Instantiate(enemy.missile, enemy.transform.position, Quaternion.identity);
+ 
+ lub
+ 
+ Instantiate(bulletHole, hit.point, Quaternion.FromToRotation(Vector3.up, hit.normal)).transform.parent = hit.transform.gameObject.transform; gdy :: MonoBehaviour

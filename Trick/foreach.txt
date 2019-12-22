@@ -1,0 +1,4 @@
+foreach (Collider col in hitColliders)
+        {
+            col.SendMessage("AddDamage", damage, SendMessageOptions.DontRequireReceiver);
+        }
